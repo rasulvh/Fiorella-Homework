@@ -128,4 +128,38 @@ body {
 #slider .slide .right-arrow .img a img:hover {
   opacity: 1;
   scale: 1.1;
+}
+
+#products {
+  margin-top: 50px;
+}
+#products .head .type ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+#products .head .type ul li {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#products .head .type ul li a {
+  text-decoration: none;
+  color: #000000;
+  transition: 0.5s;
+}
+#products .head .type ul li a:hover {
+  color: rgb(227, 148, 0);
+}
+#products .head .filter a {
+  text-decoration: none;
+  color: black;
+  float: right;
+}
+#products .head .filter a span {
+  font-size: 13px;
+}
+#products .head .filter a .img {
+  display: inline-block;
+  width: 10px;
+  margin-left: 5px;
 }/*# sourceMappingURL=home.css.map */
